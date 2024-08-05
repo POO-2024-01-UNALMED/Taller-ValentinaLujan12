@@ -14,7 +14,7 @@ public class Fabula extends Escrito{
     }
 
 
-    // Métodos
+    // Metodos
     @Override
     public int palabrasTotales(int palabrasPagina) {
         int factor = 1;

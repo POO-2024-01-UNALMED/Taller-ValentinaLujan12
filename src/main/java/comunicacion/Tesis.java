@@ -20,7 +20,7 @@ public class Tesis extends Escrito{
     }
 
 
-    // Métodos
+    // Metodos
     @Override
     public int palabrasTotales(int palabrasPagina) {
         int factor = 5;

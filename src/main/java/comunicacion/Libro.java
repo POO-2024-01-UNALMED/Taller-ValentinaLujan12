@@ -18,7 +18,7 @@ public class Libro extends Escrito{
     }
 
 
-    //Métodos
+    //Metodos
 
     @Override
     public int palabrasTotales(int palabrasPagina) {
