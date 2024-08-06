@@ -8,12 +8,12 @@ public class Periodico extends Escrito{
 
 
     //Constructor
-    public Periodico(String origen, String titulo, String autor, int paginas, String interpretacion, String fecha, String primicia) {
-        super(origen, titulo, autor, paginas);
-        this.fecha = fecha;
-        this.primicia = primicia;
-        this.interpretacion = interpretacion;
-    }
+    public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, String interpretacion) {
+		super(origen, titulo, autor, paginas);
+		this.fecha = fecha;
+		this.primicia = primicia;
+		this.interpretacion = interpretacion;
+	}
 
 
     //Metodos
