@@ -30,7 +30,7 @@ public class Periodico extends Escrito{
 
     @Override
     public String toString() {
-        return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia;
+        return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + fecha + "\n" + primicia;
     }
 
 

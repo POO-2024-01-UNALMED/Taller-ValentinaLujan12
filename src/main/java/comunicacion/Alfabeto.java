@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Alfabeto extends Pictograma {
     //Atributos
-    private Arraylist<String> letras;
-    private String interpretacion;
+    private String[] letras;
+	private String interpretacion;
 
 
     //Constructor

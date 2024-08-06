@@ -3,18 +3,18 @@ package comunicacion;
 public class Tesis extends Escrito{
     // Atributos
     private String idea;
-    private ArrayList<String> argumentos;
-    private String conclusiones;
-    private String referencias;
-    private String interpretacion;
+	private String[] argumentos;
+	private String conclusion;
+	private String referencias;
+	private String interpretacion;
 
 
     //Constructor
-    public Tesis(String origen, String titulo, String autor, int paginas, String interpretacion, String idea, String[] argumentos, String conclusiones, String referencias) {
+    public Tesis(String origen, String titulo, String autor, int paginas, String interpretacion, String idea, String[] argumentos, String conclusion, String referencias) {
         super(origen, titulo, autor, paginas);
         this.idea = idea;
         this.argumentos = argumentos;
-        this.conclusiones = conclusiones;
+        this.conclusion = conclusion;
         this.referencias = referencias;
         this.interpretacion = interpretacion;
     }
@@ -34,7 +34,7 @@ public class Tesis extends Escrito{
 
     @Override
     public String toString() {
-        return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + idea + "\n" + argumentos + "\n" + conclusiones + "\n" + referencias;
+        return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + idea + "\n" + argumentos + "\n" + conclusion + "\n" + referencias;
     }
 
 
