@@ -3,7 +3,7 @@ package comunicacion;
 public class Tesis extends Escrito{
     // Atributos
     private String idea;
-    private String[] argumentos;
+    private ArrayList<String> argumentos;
     private String conclusiones;
     private String referencias;
     private String interpretacion;
