@@ -1,7 +1,5 @@
 package comunicacion;
 
-import java.util.Arrays;
-
 public class Alfabeto extends Pictograma {
     //Atributos
     private String[] letras;
@@ -28,14 +26,16 @@ public class Alfabeto extends Pictograma {
 
     @Override
     public String toString() {
-        String mensaje = "";
-		
-        for(String letra:letras) {
-			mensaje += letra + ", "; 
+		String mensaje = "";
+		for (int i = 0; i < letras.length; i++) {
+		    if (i < letras.length - 1) {
+		        mensaje += letras[i] + ", ";
+		    }else{
+                mensaje += letras[i];
+            }
 		}
-		
-        return mensaje;
-    }
+		return mensaje;
+	}
 
 
     // Getters y setters
